@@ -108,10 +108,16 @@ Answer:A HashMap is a map used to store mappings of key-value pairs. HashMap in 
 principles. It is a data structure which allows us to store object and retrieve it in constant time O(1) provided we know the key.
 
 What is ArrayIndexOutOfBoundsException in java? When does it occur?
-Answer:
+Answer:A.Thrown to indicate that an array has been accessed with an illegal index.
+        The index is either negative or greater than or equal to the size of the array.
 
 What are the different ways of copying an array into another array?
-Answer:
+Answer:A.There are mainly four different ways to copy all elements of one array into another array in Java.
+         Manually.
+         Arrays.copyOf()
+         System.arraycopy()
+         Object.clone()
+
 
 What is DFS and BFS?
 Answer:BFS stands for Breadth First Search. DFS stands for Depth First Search. BFS(Breadth First
@@ -133,6 +139,12 @@ or go through the elements in sequential order. Usually, these data structures a
  efficient. Trees and graphs are the most common nonlinear data structures.
 
 Outline different sorting algorithms and their time complexities:
+A.
+      Algorithm	Time Complexity
+                    Best	 Worst
+  Selection Sort    Ω(n^2)	 O(n^2)
+  Bubble Sort	    Ω(n)	 O(n^2)
+  Insertion Sort	Ω(n)	 O(n^2)
 
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
@@ -140,3 +152,21 @@ Draw a table with time complexity in which it will summarize all the data struct
   b) In terms of Inserting elements:
   c) In terms of Searching elements:
   d) In terms of Removing elements:
+  Common Data Structure Operations
+          Data Structure     Time Complexity
+                              Average                                            Worst
+                           Access     Search     Insertion  Deletion   Access     Search     Insertion  Deletion
+          Array              Θ(1)       Θ(n)       Θ(n)       Θ(n)       O(1)       O(n)       O(n)       O(n)
+          Stack              Θ(n)       Θ(n)       Θ(1)       Θ(1)       O(n)       O(n)       O(1)       O(1)
+          Queue              Θ(n)       Θ(n)       Θ(1)       Θ(1)       O(n)       O(n)       O(1)       O(1)
+          Singly-Linked List Θ(n)       Θ(n)       Θ(1)       Θ(1)       O(n)       O(n)       O(1)       O(1)
+          Doubly-Linked List Θ(n)       Θ(n)       Θ(1)       Θ(1)       O(n)       O(n)       O(1)       O(1)
+          Skip List          Θ(log(n))  Θ(log(n))  Θ(log(n))  Θ(log(n))  O(n)       O(n)       O(n)       O(n)
+          Hash Table         N/A        Θ(1)       Θ(1)       Θ(1)       N/A        O(n)       O(n)       O(n)
+          Binary Search Tree Θ(log(n))  Θ(log(n))  Θ(log(n))  Θ(log(n))  O(n)       O(n)       O(n)       O(n)
+          Cartesian Tree     N/A        Θ(log(n))  Θ(log(n))  Θ(log(n))  N/A        O(n)       O(n)       O(n)
+          B-Tree             Θ(log(n))  Θ(log(n))  Θ(log(n))  Θ(log(n))  O(log(n))  O(log(n))  O(log(n))  O(log(n))
+          Red-Black Tree     Θ(log(n))  Θ(log(n))  Θ(log(n))  Θ(log(n))  O(log(n))  O(log(n))  O(log(n))  O(log(n))
+          Splay Tree         N/A        Θ(log(n))  Θ(log(n))  Θ(log(n))  N/A        O(log(n))  O(log(n))  O(log(n))
+          AVL Tree           Θ(log(n))  Θ(log(n))  Θ(log(n))  Θ(log(n))  O(log(n))  O(log(n))  O(log(n))  O(log(n))
+          KD Tree            Θ(log(n))  Θ(log(n))  Θ(log(n))  Θ(log(n))  O(n)       O(n)       O(n)       O(n)
