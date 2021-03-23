@@ -234,64 +234,106 @@ Answer:In object-oriented programming, a singleton class is a class that can hav
         (an instance of the class) at a time.
 
 What is Serialization and Deserialization?
-Answer:
+Answer:Serialization is a mechanism of converting the state of an object into a byte stream.
+        Deserialization is the reverse process where the byte stream is used to recreate the actual Java object
+        in memory.
 
 Explain the difference between While and Do..While loops?
-Answer:
+Answer:The main difference between a while loop and do while loop is that while loop check condition
+before iteration of the loop. On the other hand, the do-while loop verifies the condition after the
+execution of the statements inside the loop.
 
 What is Enum?
-Answer:
+Answer:An enum is a special class that represents a group of constants. Enum keyword is used to create
+an enum. The constants declared inside are separated by a comma and should be in upper case.
 
 What is Iterator?
-Answer:
+Answer:An Iterator is an object that can be used to loop through collections, like ArrayList and HashSet.
+ It is called an "iterator" because "iterating" is the technical term for looping.
 
 Which one will take more memory: an int or Integer? Why?
-Answer:
+Answer:int is a primitive data type which takes 32 bits(4 bytes) to store. When your Java code uses the
+ new operator to create an instance of a Java object, much more data is allocated than you might expect.
+  Integer is an object which takes 128 bits (16 bytes) to store int value.
 
 Why are Strings considered to be immutable in Java?
-Answer:
+Answer:The string is Immutable in Java because String objects are cached in the String pool
+
 
 What is constructor chaining in Java?
-Answer:
+Answer:Constructor chaining is the process of calling one constructor from another constructor with
+respect to current object.
 
 The difference between Serial and Parallel Garbage Collector?
-Answer:
+Answer: A serial collector is a default copying collector which uses only one GC thread for the GC
+operation, while a parallel collector uses multiple GC threads for the GC operation.
 
 What does JIT stands for?
-Answer:
+Answer: The just-in-time (JIT) inventory system is a management strategy that aligns raw-material orders
+ from suppliers directly with production schedules.
 
 Explain the process of Java garbage collection?
-Answer:
+Answer: Garbage Collection in Java is a process by which the programs perform memory management
+automatically. The Garbage Collector(GC) finds the unused objects and deletes them to reclaim the memory.
 
 Can you guarantee the garbage collection process?
-Answer:
+Answer:  Garbage collection does not guarantee that a program will not run out of memory. ... So to
+conclude, garbage collection (GC) handles most of the memory management and makes all possible attempts
+to make memory available for the application but it does not guarantee that it will be able to provide it.
 
 What is the difference between stack and heap in Java?
-Answer:
+Answer: Stack space is mainly used for storing order of method execution and local variables.Stack
+always stored blocks in LIFO order whereas heap memory used dynamic allocation for allocating and
+deallocating memory blocks. Memory allocated to the heap lives until one of the following events occurs :
+
+  Program terminated
+  Memory free
 
 What is reflection in Java and why is it useful?
 Answer:
 
 What is multithreading in Java?
-Answer:
+Answer: Reflection is a feature in the Java programming language. It allows an executing Java program to
+ examine or "introspect" upon itself, and manipulate internal properties of the program. For example,
+ it's possible for a Java class to obtain the names of all its members and display them.
 
 What is synchronization in Java?
-Answer:
+Answer:Synchronization in java is the capability to control the access of multiple threads to any shared
+ resource. Java Synchronization is better option where we want to allow only one thread to access the
+ shared resource.
 
 What is a Framework?
-Answer:
+Answer: A framework, or software framework, is a platform for developing software applications.
+ For example, a framework may include predefined classes and functions that can be used to process input,
+ manage hardware devices, and interact with system software.
 
 What are the testing Frameworks available in Java?
-Answer:
+Answer: 1. JBehave, 2. JUnit, 3. Serenity, 4. TestNG, 5. Selenide, 6. Gauge, 7. Geb, 8. Spock, 9. HttpUnit,
+10. JWebUnit,
 
 What are jUnit and testNG?
-Answer:
+Answer:JUnit is a unit testing framework for the Java programming language. JUnit has been important in
+the development of test-driven development, and is one of a family of unit testing frameworks which is
+collectively known as xUnit that originated with SUni.
+TestNG is a testing framework that is capable of making Selenium tests easier to understand and of
+generating reports that are easy to understand. The main advantages of TestNG over JUnit are the
+following. Annotations are easier to use and understand.
 
 What are the dependencies for this project?
-Answer:
+Answer:A dependency describes the relationship among activities and specifies the particular order in
+which they need to be performed. Dependencies arise in every decision making, planning and developing
+ process and are ideally predetermined.
 
 What is dependency injection in Java?
-Answer:
+Answer:Dependency injection (DI) is the concept in which objects get other required objects from outside.
+ DI can be implemented in any programming language. The general concept behind dependency injection is
+  called Inversion of Control. A Java class has a dependency on another class, if it uses an instance of
+   this class.
 
 Explain what static binding and dynamic binding is?
-Answer:
+Answer:Binding is a mechanism creating link between method call and method actual implementation.
+As per the polymorphism concept in Java , object can have many different forms. Object forms can be
+resolved at compile time and run time. If linking between method call  and method implementation is
+resolved at compile time then we call it static binding or  If it is resolved at run time then it
+dynamic binding. Dynamic binding uses object to resolve binding but static binding use type of the
+class and fields.

@@ -18,6 +18,13 @@ public class CollectionView {
         map.put(5, "San Jose");
         map.put(6, "Seattle");
 
+        for (int view : map.keySet()){
+            System.out.println(view + " : " + map.get(view));
+
+        }
+
     }
+
+
 
 }
