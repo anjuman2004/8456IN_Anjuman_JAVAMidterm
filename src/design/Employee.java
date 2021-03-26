@@ -1,6 +1,6 @@
 package design;
-import java.util.ArrayList;
-public interface Employee extends employeeDatabase{
+    import java.util.ArrayList;
+    public interface Employee extends employeeDatabase{
     public static void main(String[] args) {
 
     }

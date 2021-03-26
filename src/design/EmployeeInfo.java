@@ -137,10 +137,12 @@ public class EmployeeInfo {
     public EmployeeInfo(String companyWebsite){
         this.companyWebsite=companyWebsite;
     }
+
     public EmployeeInfo(String companyWebsite, double averageMonthlyPayRole){
         this.companyWebsite=companyWebsite;
         this.averageMonthlyPayRole=averageMonthlyPayRole;
     }
+
     public EmployeeInfo(String companyWebsite,double averageMonthlyPayRole,boolean isHiring){
         this.companyWebsite=companyWebsite;
         this.averageMonthlyPayRole=averageMonthlyPayRole;
@@ -202,6 +204,91 @@ public class EmployeeInfo {
         return total;
     }
 
+    @Override
+    public int employeeID(){
+        return 1234;
+    }
+
+    @Override
+    public String employeeName(){
+        return "Employee's Name is: Adam";
+    }
+
+    @Override
+    public void assignDepartment(){
+        System.out.println(" Employee will be assigned to a department");
+    }
+
+    public int calculateSalary(){
+        Object salary= null;
+        return (int) salary;
+    }
+
+    @Override
+    public void benefitLayout(){
+        System.out.println(" Employee will be given benefits for working in the company");
+    }
+    @Override
+    public void assignComputer(){
+        System.out.println("Employee will be assigned his cubicle with the computer");
+    }
+
+    @Override
+    public void assignManager(){
+        System.out.println(" Employee will be assigned manager according to his department");
+    }
+
+    @Override
+    public void employeeAddress(){
+        System.out.println(" Employee's address should be provided in resume");
+    }
+
+    @Override
+    public void employeeJobRole(){
+        System.out.println(" Employee will be given a job role in his department");
+    }
+
+    @Override
+    public void printEmployeeInfo(){
+//        EmployeeInfo ei=new EmployeeInfo();
+
+
+        System.out.println(employeePhoneNumber=231456454);
+        System.out.println(dateOfBirth="01-06-1993");
+        System.out.println(companyName="Dream Work");
+        System.out.println(companyLocation="Delaware");
+        System.out.println(companyPhoneNumber=323123212);
+        System.out.println(employeePreviousJob="TD bank");
+    }
+
+    public void companyUpcomingEvent(){
+        System.out.println(" The company will have an upcoming event for 1 year reunion ");
+    }
+
+    public void annualPartyDate(String  partyDate){
+        System.out.println(" The company will have a party on the date of 01-09-2021");
+    }
+    //These are the method created inside the employeeDatabase Interface
+    //Which was inherited by employee Interface
+    @Override
+    public void criminalRecord(){
+        System.out.println( "Employee has be given a background check");
+    }
+    @Override
+    public void reasonForLeavingPreviousJob(){
+        System.out.println(" Employee must give a solid and brief explanation on why he/she left their previous job ");
+    }
+    @Override
+    public void goalIn5Years(){
+        System.out.println(" Employee's goals in 5 years");
+    }
+
+    @Override
+    public void questionInMind(){
+        System.out.println(" Employee's question before joining the company");
+    }
+
+
     private static class DateConversion {
 
         public DateConversion(Months months) {
@@ -238,22 +325,22 @@ public class EmployeeInfo {
                     date = 6;
                     break;
                 case July:
-                    date = 1;
+                    date = 7;
                     break;
                 case August:
-                    date = 1;
+                    date = 8;
                     break;
                 case September:
-                    date = 1;
+                    date = 9;
                     break;
                 case October:
-                    date = 1;
+                    date = 10;
                     break;
                 case November:
-                    date = 1;
+                    date = 11;
                     break;
                 case December:
-                    date = 1;
+                    date = 12;
                     break;
                 default:
                     date = 0;

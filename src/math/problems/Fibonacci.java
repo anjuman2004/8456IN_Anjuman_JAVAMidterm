@@ -16,13 +16,14 @@ public class Fibonacci {
 public static int fibonacciNumbers(int n){
     int F1 = 0;
     int F2 = 1;
+    int sum;
     System.out.println("First " + n + " Fibonacci Terms: ");
 
     for (int i = 1; i < n; ++i)
     {
         System.out.println(F1 );
 
-        int sum = F1 + F2;
+        sum = F1 + F2;
         F1 = F2;
         F2 = sum;
     }
